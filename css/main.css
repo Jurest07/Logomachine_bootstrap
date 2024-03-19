@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Prompt', sans-serif;
+    background-color: #FFF6EF;
 }
 
 .header {
@@ -193,10 +194,14 @@ a {
     width: 730px;
     margin: 0 auto;
 }
+.accordion-item{
+    border: none;
+}
 .accordion-button{
     background-color: #fbdcc7;
     font-size: 20px;
     font-weight: 600;
+    border: none;
 }
 .accordion-button:focus{
     background-color: #fbdcc7;
@@ -206,6 +211,7 @@ a {
 .accordion-button:not(.collapsed){
     color:black;
     background-color: #fbdcc7;
+    border: none;
 }
 .accordion-button::after{
     width: 0;
